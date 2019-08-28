@@ -7,6 +7,11 @@
             <template slot="title"><i class="el-icon-menu"></i>综合信息</template>
             <el-menu-item index="/">首页</el-menu-item>
           </el-menu-item-group>
+          <el-menu-item-group>
+            <template slot="title"><i class="el-icon-user"></i>管理员账户</template>
+            <el-menu-item index="/admin/list">管理员列表</el-menu-item>
+            <el-menu-item index="/admin/operate">管理员操作</el-menu-item>
+          </el-menu-item-group>
           <template slot="title"><i class="el-icon-user-solid"></i>会员管理</template>
           <el-menu-item-group>
             <template slot="title"><i class="el-icon-user"></i>会员账户</template>
@@ -22,8 +27,8 @@
           <template slot="title"><i class="el-icon-s-opportunity"></i>文章管理</template>
           <el-menu-item-group>
             <template slot="title">文章管理</template>
-            <el-menu-item index="2-1">文章列表</el-menu-item>
-            <el-menu-item index="2-2">文章操作</el-menu-item>
+            <el-menu-item index="article/list">文章列表</el-menu-item>
+            <el-menu-item index="article/edit">文章操作</el-menu-item>
           </el-menu-item-group>
           <el-menu-item-group title="分组2">
             <el-menu-item index="2-3">选项3</el-menu-item>

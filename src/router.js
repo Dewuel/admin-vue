@@ -35,6 +35,15 @@ export default new Router({
           path: '/user/create',
           component: () => import('./components/CreateUser.vue'),
           props: true
+        },
+        {
+          path: '/admin/list',
+          component: () => import('./components/AdminList.vue')
+        },
+        {
+          path: '/admin/operate',
+          component: () => import('./components/AdminEdit.vue'),
+          props: true
         }
       ]
     },
